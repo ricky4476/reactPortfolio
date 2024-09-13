@@ -11,7 +11,7 @@ const Projects = () => {
         className='my-20 text-center text-4xl'>Projects</motion.h1>
         <div> 
             {PROJECTS.map((project , index) =>(
-                <div key={index} className='mb-8 flex felx-wrap lg:justify-center ;'> 
+                <div key={index} className='mb-8 flex flex-col  items-end md:flex-row felx-wrap lg:justify-center ;'> 
                 <motion.div 
                         whileInView={{opacity:1, x:0}}
                         initial={{opacity:0 , x:-100}}
